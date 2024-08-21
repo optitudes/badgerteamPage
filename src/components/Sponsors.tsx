@@ -1,4 +1,4 @@
-import { Radar,Github } from "lucide-react";
+import { Github } from "lucide-react";
 
 interface SponsorProps {
   icon: JSX.Element;
