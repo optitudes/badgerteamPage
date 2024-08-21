@@ -28,12 +28,12 @@ export const HeroCards = () => {
           </Avatar>
 
           <div className="flex flex-col">
-            <CardTitle className="text-lg">John Doe React</CardTitle>
-            <CardDescription>@john_doe</CardDescription>
+            <CardTitle className="text-lg">optitudes</CardTitle>
+            <CardDescription>github@optitudes</CardDescription>
           </div>
         </CardHeader>
 
-        <CardContent>This landing page is awesome!</CardContent>
+        <CardContent>badgerteam es una página asombrosa!</CardContent>
       </Card>
 
       {/* Team */}
@@ -46,14 +46,14 @@ export const HeroCards = () => {
           />
           <CardTitle className="text-center">Leo Miranda</CardTitle>
           <CardDescription className="font-normal text-primary">
-            Frontend Developer
+            Frontend Developer (Diseñó este tema)
           </CardDescription>
         </CardHeader>
 
         <CardContent className="text-center pb-2">
           <p>
-            I really enjoy transforming ideas into functional software that
-            exceeds expectations
+            Yo realmente disfruto transformando ideas en software functional
+            que exceda las expectativas
           </p>
         </CardContent>
 
@@ -108,50 +108,6 @@ export const HeroCards = () => {
         </CardFooter>
       </Card>
 
-      {/* Pricing */}
-      <Card className="absolute top-[150px] left-[50px] w-72  drop-shadow-xl shadow-black/10 dark:shadow-white/10">
-        <CardHeader>
-          <CardTitle className="flex item-center justify-between">
-            Free
-            <Badge
-              variant="secondary"
-              className="text-sm text-primary"
-            >
-              Most popular
-            </Badge>
-          </CardTitle>
-          <div>
-            <span className="text-3xl font-bold">$0</span>
-            <span className="text-muted-foreground"> /month</span>
-          </div>
-
-          <CardDescription>
-            Lorem ipsum dolor sit, amet ipsum consectetur adipisicing elit.
-          </CardDescription>
-        </CardHeader>
-
-        <CardContent>
-          <Button className="w-full">Start Free Trial</Button>
-        </CardContent>
-
-        <hr className="w-4/5 m-auto mb-4" />
-
-        <CardFooter className="flex">
-          <div className="space-y-4">
-            {["4 Team member", "4 GB Storage", "Upto 6 pages"].map(
-              (benefit: string) => (
-                <span
-                  key={benefit}
-                  className="flex"
-                >
-                  <Check className="text-green-500" />{" "}
-                  <h3 className="ml-2">{benefit}</h3>
-                </span>
-              )
-            )}
-          </div>
-        </CardFooter>
-      </Card>
 
       {/* Service */}
       <Card className="absolute w-[350px] -right-[10px] bottom-[35px]  drop-shadow-xl shadow-black/10 dark:shadow-white/10">
@@ -160,10 +116,9 @@ export const HeroCards = () => {
             <LightBulbIcon />
           </div>
           <div>
-            <CardTitle>Light & dark mode</CardTitle>
+            <CardTitle>Modo claro y oscuro</CardTitle>
             <CardDescription className="text-md mt-2">
-              Lorem ipsum dolor sit amet consect adipisicing elit. Consectetur
-              natusm.
+              Disfruta de nuestra página principal en diferentes temas
             </CardDescription>
           </div>
         </CardHeader>

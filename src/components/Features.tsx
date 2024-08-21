@@ -18,35 +18,35 @@ interface FeatureProps {
 
 const features: FeatureProps[] = [
   {
-    title: "Responsive Design",
+    title: "Diseño responsive",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "En Badgerteam, garantizamos que tu sitio web se adapte a cualquier dispositivo, ofreciendo una experiencia fluida y consistente para todos tus usuarios.",
     image: image4,
   },
   {
-    title: "Intuitive user interface",
+    title: "Instalación, configuración y soporte en servidores gnu/linux",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "En Badgerteam, manejamos la instalación de servidores físicos y la configuración de soluciones en la nube, incluyendo AWS, Azure y VPS como OVH Cloud, para ofrecer una infraestructura adaptable y confiable que se ajusta a tus necesidades.",
     image: image3,
   },
   {
-    title: "AI-Powered insights",
+    title: "Backend transaccional robusto",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "Desarrollamos soluciones backend robustas utilizando Laravel, Spring Boot, y próximamente, el framework Phoenix. Nos especializamos en crear sistemas escalables y eficientes que impulsan el rendimiento de tu aplicación.",
     image: image,
   },
 ];
-
 const featureList: string[] = [
-  "Dark/Light theme",
-  "Reviews",
-  "Features",
-  "Pricing",
-  "Contact form",
-  "Our team",
-  "Responsive design",
-  "Newsletter",
-  "Minimalist",
+  "Tema oscuro/claro",
+  "Características",
+  "Precios",
+  "Formulario de contacto",
+  "Nuestro equipo",
+  "Diseño responsivo",
+  "Minimalista",
+  "Instalación de servidores",
+  "Soluciones en la nube",
+  "Desarrollo backend con Laravel, Spring Boot y Phoenix",
 ];
 
 export const Features = () => {
@@ -56,9 +56,9 @@ export const Features = () => {
       className="container py-24 sm:py-32 space-y-8"
     >
       <h2 className="text-3xl lg:text-4xl font-bold md:text-center">
-        Many{" "}
+        Muchas{" "}
         <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-          Great Features
+          funciones
         </span>
       </h2>
 

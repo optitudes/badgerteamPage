@@ -10,21 +10,21 @@ interface ServiceProps {
 
 const serviceList: ServiceProps[] = [
   {
-    title: "Code Collaboration",
+    title: "Colaboración en Código",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "Facilitamos la colaboración en proyectos de desarrollo de software, optimizando el trabajo en equipo y la gestión de código.",
     icon: <ChartIcon />,
   },
   {
-    title: "Project Management",
+    title: "Gestión de Proyectos",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "Ofrecemos soluciones para una gestión eficiente de proyectos, asegurando la organización y el cumplimiento de objetivos.",
     icon: <WalletIcon />,
   },
   {
-    title: "Task Automation",
+    title: "Automatización de Tareas",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "Implementamos herramientas y procesos para automatizar tareas repetitivas, mejorando la eficiencia y reduciendo errores.",
     icon: <MagnifierIcon />,
   },
 ];
@@ -36,14 +36,12 @@ export const Services = () => {
         <div>
           <h2 className="text-3xl md:text-4xl font-bold">
             <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-              Client-Centric{" "}
+            Servicios {" "}
             </span>
-            Services
+            centrados en el cliente
           </h2>
 
           <p className="text-muted-foreground text-xl mt-4 mb-8 ">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis
-            dolor.
           </p>
 
           <div className="flex flex-col gap-8">

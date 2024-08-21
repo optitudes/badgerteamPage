@@ -17,45 +17,44 @@ interface TestimonialProps {
 const testimonials: TestimonialProps[] = [
   {
     image: "https://github.com/shadcn.png",
-    name: "John Doe React",
-    userName: "@john_Doe",
-    comment: "This landing page is awesome!",
+    name: "Carlos Ramírez",
+    userName: "@carlos_ramirez",
+    comment: "¡El equipo de Badgerteam es excepcional! Su trabajo en la instalación de servidores y configuración de la nube superó nuestras expectativas.",
   },
   {
     image: "https://github.com/shadcn.png",
-    name: "John Doe React",
-    userName: "@john_Doe1",
+    name: "María Gómez",
+    userName: "@maria_gomez",
     comment:
-      "Lorem ipsum dolor sit amet,empor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
-  },
-
-  {
-    image: "https://github.com/shadcn.png",
-    name: "John Doe React",
-    userName: "@john_Doe2",
-    comment:
-      "Lorem ipsum dolor sit amet,exercitation. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "Badgerteam nos ofreció una solución backend robusta con Laravel y Spring Boot. Su atención al detalle y profesionalismo fueron sobresalientes.",
   },
   {
     image: "https://github.com/shadcn.png",
-    name: "John Doe React",
-    userName: "@john_Doe3",
+    name: "Andrés Pérez",
+    userName: "@andres_perez",
     comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+      "La implementación de servidores físicos y servicios en la nube por parte de Badgerteam ha mejorado significativamente el rendimiento de nuestra infraestructura.",
   },
   {
     image: "https://github.com/shadcn.png",
-    name: "John Doe React",
-    userName: "@john_Doe4",
+    name: "Sofía Martínez",
+    userName: "@sofia_martinez",
     comment:
-      "Lorem ipsum dolor sit amet, tempor incididunt  aliqua. Ut enim ad minim veniam, quis nostrud.",
+      "Trabajar con Badgerteam ha sido una experiencia excelente. Su capacidad para ofrecer soluciones escalables y eficientes en la nube es impresionante.",
   },
   {
     image: "https://github.com/shadcn.png",
-    name: "John Doe React",
-    userName: "@john_Doe5",
+    name: "Javier Morales",
+    userName: "@javier_morales",
     comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "La experiencia con Badgerteam en el desarrollo backend y la configuración de servidores ha sido increíble. Recomiendo su trabajo sin dudarlo.",
+  },
+  {
+    image: "https://github.com/shadcn.png",
+    name: "Isabella Fernández",
+    userName: "@isabella_fernandez",
+    comment:
+      "Badgerteam nos brindó un servicio de instalación de servidores y soluciones en la nube que ha transformado nuestra infraestructura tecnológica. ¡Excelente trabajo!",
   },
 ];
 
@@ -66,17 +65,16 @@ export const Testimonials = () => {
       className="container py-24 sm:py-32"
     >
       <h2 className="text-3xl md:text-4xl font-bold">
-        Discover Why
+        Descubre  el por qué la 
         <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
           {" "}
-          People Love{" "}
+          gente{" "}
         </span>
-        This Landing Page
+        confía en badgerteam
+        
       </h2>
 
       <p className="text-xl text-muted-foreground pt-4 pb-8">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non unde error
-        facere hic reiciendis illo
       </p>
 
       <div className="grid md:grid-cols-2 lg:grid-cols-4 sm:block columns-2  lg:columns-3 lg:gap-6 mx-auto space-y-4 lg:space-y-6">
